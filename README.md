@@ -1,16 +1,39 @@
-# Espresso
-Создайте новый публичный репозиторий с произвольным именем, в котором разместите следующие файлы:
-- main.py — программа для отображения информации о кофе из базы данных coffee.sqlite (ID, название сорта, степень обжарки, молотый/в зернах, описание вкуса, цена, объем упаковки)
-- coffee.sqlite — sqlite база данных для хранения всей необходимой для отображения информации о кофе
-- main.ui — файл с интерфейсом программы
-- requirements.txt — файл с используемыми библиотеками
+###### Espresso-Cappuccino-Latte-Macchiato
 
-## Зависимости
-Установка зависимостей в консоли
-```pip install -r requirements.txt
+<details><summary> 
+<strong>English</strong>
+</summary>
+
+# Espresso-Cappuccino-Latte-Macchiato
+
+### Collecting several tasks from the second year of Yandex Lyceum
+###### Generalization: You need to create an application with a UI interface in which you can fill in information about coffee. 
+###### Fields: Name, Roasting, Type, Taste, Price, Size.
+
+##### Interaction with the program is carried out through the external interface, which opens after the program is launched 
+##### Launch example:
+
+```commandline
+python main.py
 ```
 
-## main.ui -> design.py
-Для получения файла дизайна окна из .ui файла:
-```pyuic5 main.ui -o design.py
+</details>
+
+<details><summary> 
+<strong>Русский</strong>
+</summary>
+
+# Эспрессо-Капучино-Латте-Макиато
+
+### Сбор нескольких заданий со второго курса Яндекс Лицея
+###### Обобщение: Необходимо создать приложение с UI интерфейсом, в котором можно будет заполнять информацию о кофе. 
+###### Поля: Имя, Обжарка, Тип, Вкус, Цена, Размер.
+
+##### Взаимодействие с программой осуществляется через внешний интерфейс, который открывается после запуска программы
+##### Пример запуска:
+
+```commandline
+python main.py
 ```
+
+</details>
